@@ -6,3 +6,14 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.espaco {
+
+  height: 90vh;
+ 
+}
+
+.margem {
+
+  margin-top: 30 vh;
+}

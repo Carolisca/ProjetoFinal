@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function Criar() {
   return (
     <>
-      <main className="container">
+      <main className="container espaco">
         <form className="register-form">
           <div className="logo">
             <img
@@ -27,7 +27,7 @@ export default function Criar() {
               id="floatingInput"
               placeholder="name"
             />
-            <label for="floatingInput">E-mail</label>
+            <label for="floatingInput">Nome</label>
           </div>
           <div className="login-page form-floating">
             <input
@@ -50,18 +50,10 @@ export default function Criar() {
           <div>
             <Link to="/kanban">
               <button
-                className="btn btn-primary btn-lg btn-block"
+                className="text-decoration-none btn btn-outline-secondary btn-lg px-4"
                 type="submit"
               >
                 Entrar
-              </button>
-            </Link>
-            <Link to="/criar">
-              <button
-                className="w-150 mt-4 mb-4 btn btn-lg btn-secondary"
-                type="button"
-              >
-                Criar Conta
               </button>
             </Link>
           </div>

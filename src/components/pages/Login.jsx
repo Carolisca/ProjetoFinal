@@ -3,48 +3,52 @@ import youtube from "../../images/youtube-day.svg";
 import instagram from "../../images/instagram-day.svg";
 import linkedin from "../../images/linkedin-day.svg";
 import logologin from "../../images/logo-techtravels_v.2.png";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
     <>
-      <main className="container">
+      <main className="container  margem espaco">
         <form className="register-form">
           <div className="logo">
             <img
               width="180"
               height="150"
               src={logologin}
-              className="fluid-img mt-4"
+              className="fluid-img mt-8  "
               alt="logo da techtravels"
             />
           </div>
-          <div className="login-page form-floating">
+          <div className="d-grid gap-2 d-sm-flex mt-6 justify-content-sm-center mb-2 ">
             <input
               type="email"
               className="form-control"
               id="floatingInput"
               placeholder="name@example.com"
             />
-            <label for="floatingInput">E-mail</label>
           </div>
-          <div className="form-floating">
+          <div className="d-grid gap-2 d-sm-flex mt-6 justify-content-sm-center mb-2">
             <input
               type="password"
               className="form-control"
               id="floatingPassword"
               placeholder="Password"
-            />
-            <label for="floatingPassword">Senha</label>
+            />{" "}
           </div>
-          <div>
-            <button className="btn btn-primary btn-lg btn-block" type="submit">
-              Entrar
-            </button>
+
+          <div className="d-grid gap-2 d-sm-flex mt-6 justify-content-sm-center mb-5 ">
             <button
-              className="w-150 mt-3 mb-3 btn btn-lg btn-secondary"
               type="button"
+              className="btn btn-primary btn-lg px-4 me-sm-3"
             >
-              Criar conta
+              <Link to="/kanban">Entrar</Link>
+            </button>
+
+            <button
+              type="button"
+              className="text-decoration-none btn btn-outline-secondary btn-lg px-4 "
+            >
+              <Link to="/criar">Criar</Link>
             </button>
           </div>
         </form>

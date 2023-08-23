@@ -5,6 +5,8 @@ import CadastroVendedor from "./components/pages/CadastroVendedor";
 import Kanban from "./components/pages/Kanban";
 import Orcamento from "./components/pages/Orcamento";
 import Criar from "./components/pages/Criar";
+
+
 import "./css/index.css";
 import "./css/planos.css";
 import "./css/login.css";
@@ -14,6 +16,7 @@ import "./css/kanban.css";
 
 
 import { Route, Routes } from 'react-router-dom';
+
 
 
 function App() {

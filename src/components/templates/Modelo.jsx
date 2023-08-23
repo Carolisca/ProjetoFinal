@@ -48,7 +48,7 @@ export default function Modelo(props) {
                 className="btn btn-outline-success text-decoration-none"
                 type="submit"
               >
-                <Link to="/login">Sair</Link>
+                <Link to="/">Sair</Link>
               </button>
             </div>
           </nav>
