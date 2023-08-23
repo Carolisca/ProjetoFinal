@@ -49,39 +49,39 @@ export default function Login() {
           </div>
         </form>
       </main>
-      <footer classNameName="d-flex flex-wrap align-items-center py-3 my-4 border-top mt-auto">
-        <div classNameName="col-md-4 d-flex align-items-center">
+      <footer className="d-flex flex-wrap align-items-center py-3 my-4 border-top mt-auto">
+        <div className="col-md-4 d-flex align-items-center">
           <a
             href="/"
-            classNameName="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
           >
-            <svg classNameName="bi" width="30" height="24"></svg>
+            <svg className="bi" width="30" height="24"></svg>
           </a>
-          <span classNameName="mb-3 mb-md-0 text-body-secondary">
+          <span className="mb-3 mb-md-0 text-body-secondary">
             &copy; TechTravels 2023 Company, Inc
           </span>
         </div>
 
-        <ul classNameName="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li classNameName="ms-3">
+        <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li className="ms-3">
             <a
-              classNameName="text-body-secondary"
+              className="text-body-secondary"
               href="https://www.youtube.com/channel/UCbFZv9G9pN7SPaCNOOR7KnQ"
             >
               <img src={youtube} height="30" width="50" alt="YouTube" />
             </a>
           </li>
-          <li classNameName="ms-3">
+          <li className="ms-3">
             <a
-              classNameName="text-body-secondary"
+              className="text-body-secondary"
               href="https://www.instagram.com/somostera/"
             >
               <img src={instagram} height="30" width="50" alt="Instagram" />
             </a>
           </li>
-          <li classNameName="ms-3">
+          <li className="ms-3">
             <a
-              classNameName="text-body-secondary"
+              className="text-body-secondary"
               href="https://www.linkedin.com/school/somostera/"
             >
               <img src={linkedin} height="30" width="50" alt="LinkedIn" />
